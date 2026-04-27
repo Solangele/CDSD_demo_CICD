@@ -1,0 +1,12 @@
+name: pull request
+on: 
+  pull_request:
+    types: 
+      - opened
+
+jobs:
+  exemple:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Il y a eu une pull request..."
+    
