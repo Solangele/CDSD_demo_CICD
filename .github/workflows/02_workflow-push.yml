@@ -1,0 +1,15 @@
+name: Installation du projet
+
+# on précise quel est le déclencheur de notre workflow
+on: push
+
+# on précise les actions à réaliser lors du déclenchement de ce workflow
+jobs:
+  # Définition de la premiere action à réaliser
+  mon-job:
+    name: build de l'application
+    # On précise le système d'exploitation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Installation des dépendances
+        run: npm ci
