@@ -10,7 +10,7 @@ on:
 jobs:
   # Définition de la premiere action à réaliser
   premier-job:
-    name: premier jobs
+    name: premier job
     # On précise le système d'exploitation
     runs-on: ubuntu-latest
     # On écrit ici les étapes pour notre action
