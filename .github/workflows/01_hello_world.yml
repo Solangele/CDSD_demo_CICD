@@ -2,7 +2,9 @@
 name: premier workflow
 
 # on précise quel est le déclencheur de notre workflow
-on: workflow_dispatch
+on: 
+  - workflow_dispatch
+  - push
 
 # on précise les actions à réaliser lors du déclenchement de ce workflow
 jobs:
