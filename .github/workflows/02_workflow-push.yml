@@ -15,3 +15,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Installation des dépendances
         run: npm ci
+      - name: build de l'application
+        run: npm run build
+      - name: test
+        run: npm run test
